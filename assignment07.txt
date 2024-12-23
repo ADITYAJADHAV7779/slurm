@@ -6,7 +6,7 @@ Q.1 create a partition called "exam partition"; make one compute node a part of 
 
 ##on controller 
 	sudo nano slurm.conf
-	add this EOF >> PartitionName=exam_partition Nodes=compute-node-default Default=YES MaxTime=7-                                                   00:00:00 State=UP
+	add this EOF >> PartitionName=exam_partition Nodes=compute-node-default Default=YES MaxTime=07:00:00 State=UP
 ##write this script on controller 
 	
 	automated_filetransfer_controller.sh
